@@ -6,5 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
+  <ItemGroup Condition="'$(ImplicitUsings)' == true Or '$(ImplicitUsings)' == enable">
+    <Using Include="Discord" />
+    <Using Include="Discord.WebSocket" />
+    <Using Include="System.Configuration" />
+  </ItemGroup>
 </Project>
