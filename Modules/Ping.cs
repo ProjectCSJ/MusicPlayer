@@ -1,6 +1,6 @@
 namespace MusicPlayer
 {
-    public class InteractionPing : InteractionModuleBase<SocketInteractionContext>
+    public class Ping : InteractionModuleBase<SocketInteractionContext>
     {
         [
             SlashCommand(
